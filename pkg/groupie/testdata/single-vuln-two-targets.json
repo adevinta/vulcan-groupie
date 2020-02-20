@@ -1,0 +1,155 @@
+{
+    "Date": "2018-05-03",
+    "Reports": [{
+            "check_id": "1",
+            "checktype_name": "vulcan-http-headers",
+            "checktype_version": "1",
+            "end_time": "2018-05-03T14:55:35Z",
+            "error": "",
+            "options": "",
+            "start_time": "2018-05-03T14:55:33Z",
+            "status": "FINISHED",
+            "target": "www.example.com",
+            "vulnerabilities": [{
+                "cwe_id": 358,
+                "description": "Content Security Policy (CSP) is an HTTP header that allows site operators fine-grained control over where resources on their site can be loaded from. The use of this header is the best method to prevent cross-site scripting (XSS) vulnerabilities. Due to the difficulty in retrofitting CSP into existing websites, CSP is mandatory for all new websites and is strongly recommended for all existing high-risk sites.\n\nIssues found:\n\nContent Security Policy (CSP) header not implemented.",
+                "id": "",
+                "recommendations": [
+                    "Implement a well-formed and correct CSP policy for this site.",
+                    "The policy should not contain unsafe directive for anything but style.",
+                    "The policy should not allow to load content from an insecure scheme (only https)."
+                ],
+                "references": [
+                    "https://wiki.mozilla.org/Security/Guidelines/Web_Security#Content_Security_Policy",
+                    "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP",
+                    "https://content-security-policy.com/",
+                    "https://observatory.mozilla.org/"
+                ],
+                "score": 3.9,
+                "summary": "HTTP Content Security Policy Not Implemented",
+                "vulnerabilities": null
+            }]
+        },
+        {
+            "check_id": "2",
+            "checktype_name": "vulcan-http-headers",
+            "checktype_version": "1",
+            "end_time": "2018-05-03T14:55:35Z",
+            "error": "",
+            "options": "",
+            "start_time": "2018-05-03T14:55:33Z",
+            "status": "FINISHED",
+            "target": "www.example2.com",
+            "vulnerabilities": [{
+                "cwe_id": 358,
+                "description": "Content Security Policy (CSP) is an HTTP header that allows site operators fine-grained control over where resources on their site can be loaded from. The use of this header is the best method to prevent cross-site scripting (XSS) vulnerabilities. Due to the difficulty in retrofitting CSP into existing websites, CSP is mandatory for all new websites and is strongly recommended for all existing high-risk sites.\n\nIssues found:\n\nContent Security Policy (CSP) header not implemented.",
+                "id": "",
+                "recommendations": [
+                    "Implement a well-formed and correct CSP policy for this site.",
+                    "The policy should not contain unsafe directive for anything but style.",
+                    "The policy should not allow to load content from an insecure scheme (only https)."
+                ],
+                "references": [
+                    "https://wiki.mozilla.org/Security/Guidelines/Web_Security#Content_Security_Policy",
+                    "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP",
+                    "https://content-security-policy.com/",
+                    "https://observatory.mozilla.org/"
+                ],
+                "score": 3.9,
+                "summary": "HTTP Content Security Policy Not Implemented",
+                "vulnerabilities": null
+            }]
+        }
+    ],
+    "action_required": false,
+    "assets": [
+        "www.example.com",
+        "www.example2.com"
+    ],
+    "checktypes": [
+        "vulcan-http-headers"
+    ],
+    "number_vulnerable_assets": 2,
+    "risk": 1,
+    "scan_id": "4",
+    "top_vulnerabilities": [],
+    "vulnerabilities": [{
+            "asset": "www.example.com",
+            "checktype": "vulcan-http-headers",
+            "options": "",
+            "vulnerability": {
+                "cwe_id": 358,
+                "description": "Content Security Policy (CSP) is an HTTP header that allows site operators fine-grained control over where resources on their site can be loaded from. The use of this header is the best method to prevent cross-site scripting (XSS) vulnerabilities. Due to the difficulty in retrofitting CSP into existing websites, CSP is mandatory for all new websites and is strongly recommended for all existing high-risk sites.\n\nIssues found:\n\nContent Security Policy (CSP) header not implemented.",
+                "id": "",
+                "recommendations": [
+                    "Implement a well-formed and correct CSP policy for this site.",
+                    "The policy should not contain unsafe directive for anything but style.",
+                    "The policy should not allow to load content from an insecure scheme (only https)."
+                ],
+                "references": [
+                    "https://wiki.mozilla.org/Security/Guidelines/Web_Security#Content_Security_Policy",
+                    "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP",
+                    "https://content-security-policy.com/",
+                    "https://observatory.mozilla.org/"
+                ],
+                "score": 3.9,
+                "summary": "HTTP Content Security Policy Not Implemented",
+                "vulnerabilities": null
+            }
+        },
+        {
+            "asset": "www.example2.com",
+            "checktype": "vulcan-http-headers",
+            "options": "",
+            "vulnerability": {
+                "cwe_id": 358,
+                "description": "Content Security Policy (CSP) is an HTTP header that allows site operators fine-grained control over where resources on their site can be loaded from. The use of this header is the best method to prevent cross-site scripting (XSS) vulnerabilities. Due to the difficulty in retrofitting CSP into existing websites, CSP is mandatory for all new websites and is strongly recommended for all existing high-risk sites.\n\nIssues found:\n\nContent Security Policy (CSP) header not implemented.",
+                "id": "",
+                "recommendations": [
+                    "Implement a well-formed and correct CSP policy for this site.",
+                    "The policy should not contain unsafe directive for anything but style.",
+                    "The policy should not allow to load content from an insecure scheme (only https)."
+                ],
+                "references": [
+                    "https://wiki.mozilla.org/Security/Guidelines/Web_Security#Content_Security_Policy",
+                    "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP",
+                    "https://content-security-policy.com/",
+                    "https://observatory.mozilla.org/"
+                ],
+                "score": 3.9,
+                "summary": "HTTP Content Security Policy Not Implemented",
+                "vulnerabilities": null
+            }
+        }
+    ],
+    "vulnerabilities_per_asset": [{
+            "asset_name": "www.example.com",
+            "vulnerabilities": 1
+        },
+        {
+            "asset_name": "www.example2.com",
+            "vulnerabilities": 1
+        }
+    ],
+    "vulnerabilities_per_impact": [{
+            "impact": "Critical",
+            "vulnerabilities": 0.01
+        },
+        {
+            "impact": "High",
+            "vulnerabilities": 0.01
+        },
+        {
+            "impact": "Medium",
+            "vulnerabilities": 0.01
+        },
+        {
+            "impact": "Low",
+            "vulnerabilities": 2.01
+        },
+        {
+            "impact": "Info",
+            "vulnerabilities": 0.01
+        }
+    ]
+}

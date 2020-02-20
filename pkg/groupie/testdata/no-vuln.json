@@ -1,0 +1,49 @@
+{
+    "Date": "2018-05-03",
+    "Reports": [{
+        "check_id": "1",
+        "checktype_name": "vulcan-http-headers",
+        "checktype_version": "1",
+        "end_time": "2018-05-03T14:55:35Z",
+        "error": "",
+        "options": "",
+        "start_time": "2018-05-03T14:55:33Z",
+        "status": "FINISHED",
+        "target": "www.example.com",
+        "vulnerabilities": null
+    }],
+    "action_required": false,
+    "assets": [
+        "www.example.com"
+    ],
+    "checktypes": [
+        "vulcan-http-headers"
+    ],
+    "number_vulnerable_assets": 1,
+    "risk": 1,
+    "scan_id": "1",
+    "top_vulnerabilities": [],
+    "vulnerabilities": null,
+    "vulnerabilities_per_asset": null,
+    "vulnerabilities_per_impact": [{
+            "impact": "Critical",
+            "vulnerabilities": 0.01
+        },
+        {
+            "impact": "High",
+            "vulnerabilities": 0.01
+        },
+        {
+            "impact": "Medium",
+            "vulnerabilities": 0.01
+        },
+        {
+            "impact": "Low",
+            "vulnerabilities": 0.01
+        },
+        {
+            "impact": "Info",
+            "vulnerabilities": 0.01
+        }
+    ]
+}

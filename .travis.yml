@@ -1,0 +1,9 @@
+language: go
+dist: trusty
+services:
+  - docker
+go:
+  - 1.13.3
+go_import_path: github.com/adevinta/vulcan-groupie
+script:
+  - go test -short ./...

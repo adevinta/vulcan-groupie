@@ -1,0 +1,9 @@
+# vulcan persistence base url.
+persistence = "https://vulcan-persistence.example.com"
+
+# vulcan results base url.
+results = "https://vulcan-results.example.com"
+
+# number of maximum concurrent workers used to retrieve the reports
+# of the checks belonging to a scan.
+workers = "5"
