@@ -144,7 +144,6 @@ var (
 		"SSL Medium Strength Cipher Suites Supported (SWEET32)":                                 "ssl",
 		"TLS Version 1.0 Protocol Detection":                                                    "ssl",
 		"TLS Version 1.1 Protocol Detection":                                                    "ssl",
-		"Unknown TLS Issue":                                                                     "ssl",
 
 		// Email Spoofing group
 		//DKIM
