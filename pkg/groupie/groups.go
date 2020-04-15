@@ -142,6 +142,9 @@ var (
 		"TLS Padding Oracle Information Disclosure Vulnerability (TLS POODLE)":                  "ssl",
 		"Cipher Suite Order Not Compliant":                                                      "ssl",
 		"SSL Medium Strength Cipher Suites Supported (SWEET32)":                                 "ssl",
+		"TLS Version 1.0 Protocol Detection":                                                    "ssl",
+		"TLS Version 1.1 Protocol Detection":                                                    "ssl",
+		"Unknown TLS Issue":                                                                     "ssl",
 
 		// Email Spoofing group
 		//DKIM
@@ -321,6 +324,7 @@ var (
 		"Apache mod_info /server-info Information Disclosure": "webserver",
 		"HTTP Reverse Proxy Detection":                        "webserver",
 		"web.config File Information Disclosure":              "webserver",
+		"Exposed HTTP Resources":                              "webserver",
 
 		// SSH Configuration group
 		"SSH Weak Algorithms Supported":                  "ssh",
