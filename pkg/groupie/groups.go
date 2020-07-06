@@ -87,6 +87,9 @@ var (
 		"docker": models.Group{
 			Summary: "Docker Vulnerabilities",
 		},
+		"cis": models.Group{
+			Summary: "CIS Compliance (BETA)",
+		},
 		"other-vulnerabilities": models.Group{
 			Summary: "Other Vulnerabilities",
 		},
@@ -215,8 +218,10 @@ var (
 		"XSS vulnerability in the HTML parser":                                                       "javascript",
 		"jQuery before 3.4.0, as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, ...) because of Object.prototype pollution": "javascript",
 		"A prototype pollution vulnerability in handlebars is exploitable if an attacker can control the template":                                                "javascript",
-		"XSS":                 "javascript",
-		"Prototype pollution": "javascript",
+		"XSS":                             "javascript",
+		"Prototype pollution":             "javascript",
+		"JQuery 1.2 < 3.5.0 Multiple XSS": "javascript",
+		"Regex in its jQuery.htmlPrefilter  sometimes may introduce XSS": "javascript",
 
 		// SSL Certificates group
 		"Expired Certificate":                                         "certificates",
@@ -527,13 +532,14 @@ var (
 		"AWS Security Groups":              "aws",
 		"AWS IAM Access Key Rotation":      "aws",
 		"AWS ELB Listener Security":        "aws",
-		"AWS CloudFront Custom SSL Certificates in the IAM Certificate Store": "aws",
-		"AWS CloudFront SSL Certificate on the Origin Server":                 "aws",
-		"AWS Security Groups - Specific Ports Unrestricted":                   "aws",
-		"AWS AWS CloudTrail Logging":                                          "aws",
-		"AWS Security Groups - Unrestricted Access":                           "aws",
-		"AWS Amazon RDS Security Group Access Risk":                           "aws",
-		"Managed AWS databases using CA about to expire":                      "aws",
+		"AWS CloudFront Custom SSL Certificates in the IAM Certificate Store":     "aws",
+		"AWS CloudFront SSL Certificate on the Origin Server":                     "aws",
+		"AWS Security Groups - Specific Ports Unrestricted":                       "aws",
+		"AWS AWS CloudTrail Logging":                                              "aws",
+		"AWS Security Groups - Unrestricted Access":                               "aws",
+		"AWS Amazon RDS Security Group Access Risk":                               "aws",
+		"Managed AWS databases using CA about to expire":                          "aws",
+		"AWS Amazon Route 53 MX Resource Record Sets and Sender Policy Framework": "aws",
 
 		// Other Software Vulnerabilities group
 		"Return Of Bleichenbacher's Oracle Threat (ROBOT) Information Disclosure":               "other-vulnerabilities",
@@ -573,6 +579,9 @@ var (
 		// Docker Vulnerabilities group
 		"Outdated Packages in Docker Image":        "docker",
 		"Outdated Packages in Docker Image (BETA)": "docker",
+
+		// CIS Compliance group
+		"Compliance With CIS AWS Foundations Benchmark (BETA)": "cis",
 	}
 )
 
