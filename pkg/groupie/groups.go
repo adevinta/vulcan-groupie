@@ -221,7 +221,7 @@ var (
 		"XSS":                             "javascript",
 		"Prototype pollution":             "javascript",
 		"JQuery 1.2 < 3.5.0 Multiple XSS": "javascript",
-		"Regex in its jQuery.htmlPrefilter  sometimes may introduce XSS": "javascript",
+		"Regex in its jQuery.htmlPrefilter sometimes may introduce XSS": "javascript",
 
 		// SSL Certificates group
 		"Expired Certificate":                                         "certificates",
