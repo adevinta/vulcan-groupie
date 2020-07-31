@@ -221,7 +221,8 @@ var (
 		"XSS":                             "javascript",
 		"Prototype pollution":             "javascript",
 		"JQuery 1.2 < 3.5.0 Multiple XSS": "javascript",
-		"Regex in its jQuery.htmlPrefilter sometimes may introduce XSS": "javascript",
+		"Regex in its jQuery.htmlPrefilter sometimes may introduce XSS":                                                                               "javascript",
+		"angular.js prior to 1.8.0 allows cross site scripting. The regex-based input HTML replacement may turn sanitized code into unsanitized one.": "javascript",
 
 		// SSL Certificates group
 		"Expired Certificate":                                         "certificates",
@@ -312,6 +313,16 @@ var (
 		"PHP 7.2.x < 7.2.16 Multiple vulnerabilities.":                                        "php",
 		"PHP 7.2.x < 7.2.18 Heap-based Buffer Overflow Vulnerability.":                        "php",
 		"PHP 7.2.x < 7.2.19 Multiple Vulnerabilities.":                                        "php",
+		"PHP 7.2.x < 7.2.30 Multiple Vulnerabilities":                                         "php",
+		"PHP 7.2.x < 7.2.31 / 7.3.x < 7.3.18, 7.4.x < 7.4.6 Denial of Service (DoS)":          "php",
+		"PHP 5.5.x < 5.5.30 Multiple Vulnerabilities":                                         "php",
+		"PHP prior to 5.5.x < 5.5.31 / 5.6.x < 5.6.17 Multiple Vulnerabilities":               "php",
+		"PHP 5.5.x < 5.5.32 Multiple Vulnerabilities":                                         "php",
+		"PHP 5.5.x < 5.5.33 Multiple Vulnerabilities":                                         "php",
+		"PHP 5.5.x < 5.5.34 Multiple Vulnerabilities":                                         "php",
+		"PHP 7.2.x < 7.2.28 / PHP 7.3.x < 7.3.15 / 7.4.x < 7.4.3 Multiple Vulnerabilities":    "php",
+		"PHP 7.3.x < 7.3.16 Multiple Vulnerabilities":                                         "php",
+		"PHP 7.3.x < 7.3.17 Out of Bounds Read Vulnerability":                                 "php",
 
 		// Webserver Configuration group
 		"HTTP TRACE / TRACK Methods Allowed":                  "webserver",
@@ -329,6 +340,7 @@ var (
 		"HTTP Reverse Proxy Detection":                        "webserver",
 		"web.config File Information Disclosure":              "webserver",
 		"Exposed HTTP Resources":                              "webserver",
+		"Web Server Uses Non Random Session IDs":              "webserver",
 
 		// SSH Configuration group
 		"SSH Weak Algorithms Supported":                  "ssh",
@@ -475,6 +487,8 @@ var (
 		"Apache 2.4.x < 2.4.41 Multiple Vulnerabilities":                      "apache",
 		"Apache 2.4.x < 2.4.39 Multiple Vulnerabilities":                      "apache",
 		"Multiple vulnerabilities in Apache httpd":                            "apache",
+		"Apache 2.4.x < 2.4.38 Multiple Vulnerabilities":                      "apache",
+		"Apache 2.4.x < 2.4.42 Multiple Vulnerabilities":                      "apache",
 
 		// Nginx Vulnerabilities group
 		"nginx 1.9.5 < 1.16.1 / 1.17.x < 1.17.3 Multiple Vulnerabilties": "nginx",
@@ -562,6 +576,8 @@ var (
 		"Network Time Protocol (NTP) Mode 6 Scanner":                                                             "other-vulnerabilities",
 		"Multiple vulnerabilities in ISC BIND":                                                                   "other-vulnerabilities",
 		"Secrets Leaked in Git Repository":                                                                       "other-vulnerabilities",
+		"ISC BIND Service Downgrade / Reflected DoS ISC BIND Denial of Service":                                  "other-vulnerabilities",
+		"SMB Signing not required":                                                                               "other-vulnerabilities",
 
 		// Drupal Vulnerabilities group
 		"Drupal - SA-CORE-2018-004 - Remote Code Execution":    "drupal",
