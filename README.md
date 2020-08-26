@@ -32,7 +32,7 @@ $ vulcan-groupie group a05ee450-e09b-40cf-a648-b477cafc3cf1
 2018/03/21 14:33:08 100
 #####################
 Javascript Libraries Vulnerabilities
-Upgrade to the lastest version of the reported Javascript libraries
+Upgrade to the latest version of the reported Javascript libraries
 	2 || parseHTML() executes scripts in event handlers in jquery 2.2.4.min || vulcan-retirejs || [site.example.com]
 	2 || 3rd party CORS request may execute in jquery 2.2.4.min || vulcan-retirejs || [site.example.com]
 #####################
