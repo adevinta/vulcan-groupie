@@ -1,9 +1,8 @@
 language: go
-dist: trusty
 services:
   - docker
 go:
-  - 1.13.3
+  - 1.15
 go_import_path: github.com/adevinta/vulcan-groupie
-script:
-  - go test -short ./...
+install: _script/bootstrap
+script: _script/cibuild
