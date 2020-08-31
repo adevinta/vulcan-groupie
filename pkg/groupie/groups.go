@@ -17,11 +17,11 @@ var (
 		},
 		"wordpress": models.Group{
 			Summary:         "Vulnerabilities in WordPress",
-			Recommendations: []string{"Update WordPress to the lastest version"},
+			Recommendations: []string{"Update WordPress to the latest version"},
 		},
 		"javascript": models.Group{
 			Summary:         "Vulnerabilities in JavaScript Dependencies",
-			Recommendations: []string{"Update the affected JavaScript dependencies to the lastest version"},
+			Recommendations: []string{"Update the affected JavaScript dependencies to the latest version"},
 		},
 		"exposed": models.Group{
 			Summary: "Exposed Services",
@@ -31,7 +31,7 @@ var (
 		},
 		"drupal": models.Group{
 			Summary:         "Vulnerabilities in Drupal",
-			Recommendations: []string{"Update Drupal to the lastest version"},
+			Recommendations: []string{"Update Drupal to the latest version"},
 		},
 		"certificates": models.Group{
 			Summary: "Security Best Practices for SSL Certificates",
