@@ -343,6 +343,7 @@ var (
 		"web.config File Information Disclosure":              "webserver",
 		"Exposed HTTP Resources":                              "webserver",
 		"Web Server Uses Non Random Session IDs":              "webserver",
+		"Multiple vulnerabilities in Microsoft IIS httpd":     "webserver",
 
 		// SSH Configuration group
 		"SSH Weak Algorithms Supported":                  "ssh",
