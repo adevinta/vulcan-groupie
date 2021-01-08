@@ -120,6 +120,7 @@ var (
 		"HTTP X-Frame-Options Misconfiguration":                           "http-headers",
 		"HTTP Content Security Policy Is Malformed":                       "http-headers",
 		"HSTS Missing From HTTPS Server":                                  "http-headers",
+		"HSTS Missing From HTTPS Server (RFC 6797)":                       "http-headers",		
 
 		// SSL Configuration group
 		"Weak SSL/TLS Ciphersuites":                                                             "ssl",
