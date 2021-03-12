@@ -1,3 +1,7 @@
+/*
+Copyright 2021 Adevinta
+*/
+
 package cmd
 
 // Config holds the configuration fields used by the vulcan-groupie cli.

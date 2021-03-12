@@ -1,3 +1,7 @@
+/*
+Copyright 2021 Adevinta
+*/
+
 // Package groupie allows getting, saving and grouping vulnerabilities detected
 // by Vulcan, making them easier to process by the end users.
 package groupie
