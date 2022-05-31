@@ -1,7 +1,5 @@
 dist: bionic
 language: go
-services:
-  - docker
 go:
   - 1.18
 go_import_path: github.com/adevinta/vulcan-groupie
