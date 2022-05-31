@@ -140,8 +140,7 @@ func buildResultsClient(persistenceURL, resultsURL string, workers int) (*scans.
 	c.Client.Host = u.Host
 
 	// Build a results client.
-
-	rClient, err := results.NewClient(resultsURL, http.DefaultClient)
+	rClient, err := results.NewClient(http.DefaultClient)
 	if err != nil {
 		return nil, err
 	}
