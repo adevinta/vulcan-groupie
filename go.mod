@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/adevinta/vulcan-core-cli v1.0.0-rc1
-	github.com/adevinta/vulcan-report v1.0.0-rc1
+	github.com/adevinta/vulcan-report v1.0.0
 	github.com/goadesign/goa v1.4.3
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/viper v1.3.2

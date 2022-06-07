@@ -3,8 +3,8 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/DataDog/datadog-go v3.2.0+incompatible/go.mod h1:LButxg5PwREeZtORoXG3tL4fMGNddJ+vMq1mwgfaqoQ=
 github.com/adevinta/vulcan-core-cli v1.0.0-rc1 h1:PSHKW32yQAuhqqr9U6fe5b3WGflDhXrNxJJtRc5OFRE=
 github.com/adevinta/vulcan-core-cli v1.0.0-rc1/go.mod h1:76ojhKlC2ySWukWD46YnCNPR/3R2TOjrfkSUgZQIfcM=
-github.com/adevinta/vulcan-report v1.0.0-rc1 h1:GSPrqMmxw3m4mGKovuusXzFuuKJIwAehit+1Ets5dmo=
-github.com/adevinta/vulcan-report v1.0.0-rc1/go.mod h1:k34KaeoXc3H77WNMwI9F4F1G28hBjB95PeMUp9oHbEE=
+github.com/adevinta/vulcan-report v1.0.0 h1:44aICPZ+4svucgCSA5KmjlT3ZGzrvZXiSnkbnj6AC2k=
+github.com/adevinta/vulcan-report v1.0.0/go.mod h1:k34KaeoXc3H77WNMwI9F4F1G28hBjB95PeMUp9oHbEE=
 github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6/go.mod h1:grANhF5doyWs3UAsr3K4I6qtAmlQcZDesFNEHPZAzj8=
 github.com/armon/go-metrics v0.3.0 h1:B7AQgHi8QSEi4uHu7Sbsga+IJDU+CENgjxoo81vDUqU=
 github.com/armon/go-metrics v0.3.0/go.mod h1:zXjbSimjXTd7vOpY8B0/2LpvNvDoXBuplAD+gJD3GYs=
