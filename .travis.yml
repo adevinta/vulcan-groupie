@@ -1,7 +1,7 @@
 dist: bionic
 language: go
 go:
-  - 1.18
+  - 1.18.x
 go_import_path: github.com/adevinta/vulcan-groupie
 script:
   - go test -short ./...
